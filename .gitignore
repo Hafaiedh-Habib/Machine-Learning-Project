@@ -1,0 +1,74 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (si vous ne voulez pas pusher les données)
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.h5
+*.hdf5
+
+# Model files (si trop volumineux)
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Plots/Images générés (optionnel)
+# *.png
+# *.jpg
+# *.jpeg
+# *.pdf
